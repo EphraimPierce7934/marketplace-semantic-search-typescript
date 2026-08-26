@@ -1,0 +1,8 @@
+{
+  "name": "marketplace-semantic-search-typescript",
+  "private": true,
+  "type": "module",
+  "scripts": {"typecheck": "tsc --noEmit", "test": "tsx test/marketplace_search.test.ts", "start": "tsx src/marketplace_search.ts"},
+  "dependencies": {"openai": "^4.0.0", "zod": "^3.0.0"},
+  "devDependencies": {"tsx": "^4.0.0", "typescript": "^5.0.0"}
+}
